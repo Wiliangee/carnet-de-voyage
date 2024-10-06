@@ -1,0 +1,68 @@
+/* app/home.module.css */
+.mainContent {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .presentation {
+    margin-bottom: 40px;
+  }
+  
+  .photos {
+    text-align: center;
+    margin: 50px 0;
+  }
+  .photos Img{
+    
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 50px 0;
+  }
+  
+  .navButtons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .navButton
+   {
+    display: flex;
+    align-items: center;
+    background-color: #0070f3;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navButton:hover {
+    background-color: #005bb5;
+    transform: scale(1.05);
+  }
+  
+  .flagIcon {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    background-color: transparent;
+  }
+  
+  .contactButton {
+    background-color: #f5a623;
+  }
+  
+  .contactButton:hover {
+    background-color: #d48806;
+  }
+  
+  @media (max-width: 768px) {
+    .navButton {
+      padding: 10px 20px;
+    }
+  }
+  

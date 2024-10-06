@@ -1,0 +1,10 @@
+/* app/voyages/venise/venise.module.css */
+.mainContent {
+    padding: 20px;
+    background-color: #d5e8d4; /* Vert pâle */
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles pour mobile si nécessaire */
+  }
+  

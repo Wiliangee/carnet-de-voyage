@@ -1,0 +1,90 @@
+/* app/voyages/londres/londres.module.css */
+
+.mainContent {
+    padding: 20px;
+    background-color: #e0e0e0; /* Couleur représentant la pluie */
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles pour mobile si nécessaire */
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    
+    
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+    
+  .section h5{
+    text-align: justify;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    margin: 10px 50px 20px;
+  }
+  
+  .section p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    text-align: justify;
+    margin: 10px 50px 20px;
+  }
+  
+  
+  .imageContainer {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  
+  .caption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 5px;
+  }
+  
+  .backToTop {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .backToTop a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .backToTop a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContent {
+      padding: 15px;
+    }
+  
+    .section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .section h3 {
+      font-size: 1.25rem;
+    }
+  }
