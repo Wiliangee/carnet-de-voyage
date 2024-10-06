@@ -613,18 +613,62 @@ plein les yeux de la journée mémorable que nous venions de passer.
               déambulons entre les allées profitant du calme du parc sous la pluie, l’eau imprégnant peu à peu 
             nos vêtements. Nous restons sur les chemins car les flaques d’eau avaient recouvert l’herbe 
 verte. 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Hyde-Park.jpg"
+              alt="Hyde Park"
+              width={800}
+              height={500}
+            />
+          </div> 
+        
+          <p>
 Nous en profitons pour admirer les différentes statues, dont une particulière nous ramenant à 
 l’enfance, celle de Peter Pan. Cette statue de bronze, pleine de vie, représente un enfant dansant 
 et faisant de la musique, entouré par des nymphes et des petits animaux de la forêt. Elle nous 
 remémore les histoires de notre enfance. 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Peter-Pan.jpg"
+              alt="Peter Pan"
+              width={800}
+              height={500}
+            />
+          </div> 
+        
+          <p>
 Nous baladant le long de la Serpentine (un lac artificiel de 11 hectares) paisiblement au bord de 
 l’eau calme où se reflète le ciel sombre et nuageux. Les oiseaux accompagnant notre chemin, 
-nous prenons le temps de les admirer dans l’eau. 
-Au loin, nous voyons le pont avec les voitures collées les unes aux autres, attendant de pouvoir 
+nous prenons le temps de les admirer dans l’eau.
+ </p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Lac-artificiel.jpg"
+              alt="lac artificiel"
+              width={800}
+              height={500}
+            />
+          </div> 
+        
+          <p>
+            Voyons le pont avec les voitures collées les unes aux autres, attendant de pouvoir 
 passer. Bien loin de l’atmosphère calme de la nature encore endormie régnant sur le parc où seul 
 le bruit des sabots des chevaux et de leurs cavaliers se promenant résonnent. 
 Nous quittons cet havre de paix pour traverser St James Park où nous croisons notre seul écureuil 
-qui eut droit à un shooting photo ! 
+qui eut droit à un shooting photo !
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/écureuil.jpg"
+              alt="écureuil"
+              width={800}
+              height={500}
+            />
+          </div> 
+        
+          <p>
 Nous rejoignons la foule devant Buckingham Palace afin d'assister à la relève de la garde. Le 
 drapeau flottant au-dessus du palais à une signification, si c’est celui du Royaume-Uni (Union 
 Jack) cela signifie que le roi est absent, si c’est le drapeau Royal (Royal Standard), le roi est 
@@ -633,7 +677,25 @@ Nous patientons calmement pendant la mise en place de la sécurité, nous voyons
 cheval passer devant nous. Nous profitons du panorama avec Big Ben en arrière-plan et devant 
 nous la statue dorée “Victoria Memorial” qui met en valeur la vie et le règne de la reine Victoria. 
 Le soleil, faisant une courte apparition, se reflétant sur la statue ne l’en rend que plus 
-éblouissante. 
+éblouissante. </p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Victoria-Memorial1.jpg"
+              alt="Victoria Memorial"
+              width={800}
+              height={500}
+            />
+          </div> 
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Victoria-Memorial2.jpg"
+              alt="Victoria Memorial"
+              width={800}
+              height={500}
+            />
+          </div> 
+        
+          <p>
 La foule s’agitait, le brouhaha ambiant des conversations, d’un coup ce fut le silence, au loin 
 retendit les premières notes de la fanfare avant de voir la garde arrivée sur la grande place 
 exécutant un défilé maint et mainte fois répété. D’abord, les gardes à cheval, l’harnachement 
@@ -642,17 +704,82 @@ manteaux noirs et leurs casques argentés avec leur plumeau rouge donnent un spe
 impressionnant. Derrière eux, suivait la garde à pied, eux étaient vêtus de longs manteaux gris et 
 des fameux bearskins, leurs bonnets à poils noirs emblématique de la garde anglaise.  
 C’est une tradition à voir, un incontournable. 
-Nous reprenons notre   chemin à la fin de la cérémonie, nous baladant dans les rues jusqu’à 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/fanfare1.jpg"
+              alt="fanfare "
+              width={800}
+              height={500}
+            />
+          </div> 
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/fanfare2.jpg"
+              alt="fanfare "
+              width={800}
+              height={500}
+            />
+          </div> 
+        
+          <p>
+Nous reprenons notre chemin à la fin de la cérémonie, nous baladant dans les rues jusqu’à 
 Trafalgar square, l’une des places les plus animées de Londres, on n’a pu apercevoir des bus 
-impériaux. On peut y retrouver une colonne en son centre érigé en l’honneur de l’amiral Horacio 
+impériaux.
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/bus-impériaux.jpg"
+              alt="bus impériaux"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
+            On peut y retrouver une colonne en son centre érigé en l’honneur de l’amiral Horacio 
 Nelson, un héros de la marine britannique entouré par les quatre lions de bronze.  
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/l’amiral-Horacio.jpg"
+              alt="l’amiral Horacio"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
+           
 On y retrouve notamment The National Gallery, un musée d’art et l’un des plus prestigieux au 
 monde. Cette galerie abrite une collection exceptionnelle de peintures européennes, allant du 
-XIIIe siècle à 1900. Malheureusement, nous n’aurons pas eu le temps de la visiter. 
+XIIIe siècle à 1900. Malheureusement, nous n’aurons pas eu le temps de la visiter.
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/The-National-Gallery.jpg"
+              alt="The National Gallery"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
 Après avoir traversé la place, nous avons marché jusqu’à Covent Garden, un ancien marché de 
 fruits et légumes couverts, transformé en galerie marchande. Cette transformation s'est réalisée 
 progressivement au XIXème siècle, quand avec l’expansion de la ville le marché a perdu de son 
-importance. C’est l’un de mes endroits préférés à Londres !  
+importance. C’est l’un de mes endroits préférés à Londres ! 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Covent-Garden.jpg"
+              alt="Covent Garden"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p>  
 Le style industriel du lieu avec ses grandes verrières, mélangé avec des plantes lui confère un 
 charme fou. Ce marché plein de vie, regorge de touristes et d’artistes de rue. 
 Nous nous arrêtons manger sur conseil d’amis au restaurant Din Tai Fung, un restaurant 
@@ -661,6 +788,17 @@ minimales. Assez déçus de l’expérience et ayant encore faim, nous avons pri
 Shake Shack, un fast-food. L’ambiance plus conviviale et leurs burgers gourmands nous 
 correspondaient plus. Assis sur la terrasse, nous avons pu profiter d’une cantatrice chantant 
 depuis un petit balcon. 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Covent-Garden-int.jpg"
+              alt="Covent Garden"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p>  
 Voulant offrir des chaussettes kitch sur le thème de l’Angleterre à mon compagnon, nous avons 
 dévalisé le magasin de chaussettes Happy Socks, elles ont fait partie des souvenirs du voyage. 
 Toutes les chaussettes exposées donnent une impression d’explosion de couleurs quand on 
@@ -670,6 +808,17 @@ une petite boutique sur deux étages dont une bonne odeur de plantes séchées i
 Ils proposent une gamme diverse de thé, de café et de chocolats aux saveurs originales. Plus 
 jeune, j’adorais leur thé instantané à la pomme. Le thé est un cadeau idéal pour la famille au 
 retour du voyage. 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Covent-Garden-int2.jpg"
+              alt="Covent Garden"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
 Nous avons encore fait quelques achats aux stands ambulants de Covent Garden qui offrent une 
 multitude de possibilités : des magnets, des cartes postales et des petites babioles souvenirs. 
 Parfait pour finir de compléter les cadeaux. 
@@ -686,39 +835,142 @@ marques les plus luxueuses sont présentes dans ce beau bâtiment à l’intéri
 retrouve le même faste que dans les grands magasins parisiens, avec leurs belles vitrines. Nous 
 ne sommes pas restés longtemps, admirant simplement l’architecture des lieux et déambulant 
 dans les allées pour admirer les articles exposés bien loin de notre budget. 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Harrods.jpg"
+              alt="Harrods"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p>  
+
 Ça y est, c’est notre dernier soir dans la capitale britannique, nous grignotons dans un pub, à 
 proximité de Victoria, des ailes de poulet autour d’une pinte de bière. L’ambiance conviviale, 
 festive et bruyante était au rendez-vous. 
 Comment aller à Londres sans profiter de sa culture artistique ? La ville propose une multitude 
-de comédies musicales et de pièces de théâtres. Ayant réservé nos billets un peu tard (seulement 
+de comédies musicales et de pièces de théâtres.
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/comédies-musicales.jpg"
+              alt="comédies musicales"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
+ Ayant réservé nos billets un peu tard (seulement 
 quelques jours avant), nous n’avions pas énormément de choix mais nous avons été éblouis par 
 la comédie musicale Wicked. Sa première représentation date de 2006 et presque 20 ans plus 
 tard, la salle était toujours comble. La richesse des décors, des costumes et la qualité des 
 comédiens nous ont bluffé. En arrivant dans la salle, nous avons pu admirer le dragon suspendu 
 au plafond, la carte du pays d’Oz et l’assemblage complexe de rouages autour de la scène. 
+</p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Wicked.jpg"
+              alt="Wicked"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
 L’histoire porte sur l’amitié, la recherche de sa place dans la société, de surmonter les obstacles 
 et de rester fidèle à soi-même. Les chansons de ce spectacle sont magnifiques et “Defying 
 Gravity” donne de véritables frissons. Ça été un véritable plaisir d’assister à cette représentation, 
 j’ai retrouvé le même émerveillement que lors de mon premier voyage à Londres où j’avais assisté 
 à ce spectacle avec ma famille. C’était la parfaite conclusion de notre voyage à Londres. 
           </p>
-          {/* Emplacements pour les photos du Jour 2 */}
+          <h5>Moments mémorables</h5>
+
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Moment-mémorable6.jpg"
+              alt="Moment mémorable"
+              width={800}
+              height={500}
+            />
+          </div> 
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Moment-mémorable7.jpg"
+              alt="Moment mémorable"
+              width={800}
+              height={500}
+            />
+          </div> 
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Moment-mémorable8.jpg"
+              alt="Moment mémorable"
+              width={800}
+              height={500}
+            />
+          </div> 
         </section>
 
         {/* Le départ */}
         <section className={styles.section}>
           <h2>Le départ</h2>
           <p>
-            "Nous nous sommes levés tôt, très tôt afin de prendre le métro, les seuls autres êtres vivants
+            Nous nous sommes levés tôt, très tôt afin de prendre le métro, les seuls autres êtres vivants
             étaient les rats se baladant sur les quais, pour rejoindre la gare de Blackfriars, nous avons
-            découvert une Londres paisible, endormie. Nous avons pu admirer la cathédrale Saint-Paul
+            découvert une Londres paisible, endormie.
+            </p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/fatigue.jpg"
+              alt="fatigue"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
+             Nous avons pu admirer la cathédrale Saint-Paul
             illuminée tel un phare dans la nuit. Les barrières de la gare étaient ouvertes, personne pour
-            contrôler, nous avons pu monter dans le train. Par sécurité, j’avais pris les billets, en attendant le
+            contrôler, nous avons pu monter dans le train. 
+            </p>
+            <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/nuit-cathédrale-Saint-Paul.jpg"
+              alt="nuit cathédrale Saint-Paul"
+              width={800}
+              height={500}
+            />
+          </div> 
+
+          <p> 
+            Par sécurité, j’avais pris les billets, en attendant le
             train sur le quai. Dormant debout, nous sommes arrivés avec de l’avance à l’aéroport pour rentrer
             chez nous, mettant fin à cette aventure londonienne. Nous étions fatigués, épuisés même, nous
             avons parcouru presque 50 km à pied pendant ce séjour. Nous nous sommes endormis avant
-            même que l’avion ait décollé, rêvant peut-être encore de cette belle ville."
+            même que l’avion ait décollé, rêvant peut-être encore de cette belle ville.
           </p>
+
+          <h5>Moments mémorables</h5>
+
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Moment-mémorable9.jpg"
+              alt="Moment mémorable"
+              width={800}
+              height={500}
+            />
+          </div> 
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Moment-mémorable10.jpg"
+              alt="Moment mémorable"
+              width={800}
+              height={500}
+            />
+          </div> 
         </section>
 
         {/* Bouton de retour en haut de page */}
