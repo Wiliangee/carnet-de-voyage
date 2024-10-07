@@ -26,7 +26,10 @@
     --button-secondary-hover: #1a1a1a;
   }
 }
-
+#lien-instagram {
+  text-decoration: underline;
+  color: blue;
+}
 .main {
   display: flex;
   flex-direction: column;
