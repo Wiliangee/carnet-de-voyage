@@ -88,7 +88,7 @@ porte une double casquette professionnelle en étant assistante comptable et mas
 
             <div className={styles.photos}>
             <Image
-              src="/images/Chloé.jpg"
+              src="/images/Chloe.jpg"
               alt=" Chloé"
               width={800}
               height={500}

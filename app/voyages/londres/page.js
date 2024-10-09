@@ -65,7 +65,7 @@ saisis par la grandeur et la majesté de cet édifice.
 
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/cathédrale-ext.jpg"
+              src="/images/londres/cathedrale-ext.jpg"
               alt="cathédrale"
               width={800}
               height={500}
@@ -87,7 +87,7 @@ Charles, aujourd’hui roi, en 1981.
 
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/cathédrale-int1.jpg"
+              src="/images/londres/cathedrale-int1.jpg"
               alt="cathédrale"
               width={800}
               height={500}
@@ -96,7 +96,7 @@ Charles, aujourd’hui roi, en 1981.
 
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/cathédrale-int2.jpg"
+              src="/images/londres/cathedrale-int2.jpg"
               alt="cathédrale"
               width={800}
               height={500}
@@ -105,7 +105,7 @@ Charles, aujourd’hui roi, en 1981.
 
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/cathédrale-int3.jpg"
+              src="/images/londres/cathedrale-int3.jpg"
               alt="cathédrale"
               width={800}
               height={500}
@@ -196,7 +196,7 @@ lieu caché.
         
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/vieille-église1.jpg"
+              src="/images/londres/vieille-eglise1.jpg"
               alt="St Dunstan's Hill"
               width={800}
               height={500}
@@ -205,7 +205,7 @@ lieu caché.
 
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/vieille-église2.jpg"
+              src="/images/londres/vieille-eglise2.jpg"
               alt="St Dunstan's Hill"
               width={800}
               height={500}
@@ -226,7 +226,7 @@ mal.
           </p>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/vieille-église3.jpg"
+              src="/images/londres/vieille-eglise3.jpg"
               alt="St Dunstan's Hill"
               width={800}
               height={500}
@@ -235,7 +235,7 @@ mal.
 
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/vieille-église4.jpg"
+              src="/images/londres/vieille-eglise4.jpg"
               alt="St Dunstan's Hill"
               width={800}
               height={500}
@@ -308,7 +308,7 @@ flamme sur nous, gardienne des lieux et symbole de la puissance britannique.
           </p>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/créature.jpg"
+              src="/images/londres/creature.jpg"
               alt="une créature de feu et de métal"
               width={800}
               height={500}
@@ -430,6 +430,7 @@ perdant dans les nuages, cette expérience fut impressionnante.
               alt="Vue de The Shard"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
           <p>
@@ -442,6 +443,7 @@ panoramique sur la Tamise et les immeubles de la ville est assez original.
               alt="Toillette the Shard"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
           <p>
@@ -466,6 +468,7 @@ Cette mésaventure derrière nous, nous changeons nos plans, la nuit commençait
               alt="Le sac et le coupable"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
         
@@ -481,6 +484,7 @@ moment.
               alt="Big Ben"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
         
@@ -493,10 +497,11 @@ malheureusement pas le visiter ce coup-ci. Ce géant de pierre, immuable à trav
               </p>
               <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/cathédrale.jpg"
+              src="/images/londres/cathedrale.jpg"
               alt="cathédrale de Westminster"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
         
@@ -513,6 +518,7 @@ certains.
               alt="Piccadilly Circus"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
         
@@ -524,18 +530,20 @@ le magasin, parmi tous ses chocolats.
             </p>
             <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/M&M’s1.jpg"
+              src="/images/londres/MMs1.jpg"
               alt="M&M’s"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/M&M’s2.jpg"
+              src="/images/londres/MMs2.jpg"
               alt="M&M’s"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
         
@@ -547,10 +555,11 @@ retrouver.
             </p>
             <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/bonnet-M&M’s.jpg"
+              src="/images/londres/bonnet-MMs.jpg"
               alt="bonnet M&M’s"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
         
@@ -563,7 +572,16 @@ plein les yeux de la journée mémorable que nous venions de passer.
           <h5>Moments mémorables</h5>
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable1.jpg"
+              src="/images/londres/Moment-memorable1.jpg"
+              alt="Moment mémorable"
+              width={800}
+              height={500}
+              layout="responsive"
+            />
+          </div> 
+          <div className={styles.imageContainer}>
+              <Image
+              src="/images/londres/Moment-memorable2.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -571,7 +589,7 @@ plein les yeux de la journée mémorable que nous venions de passer.
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable2.jpg"
+              src="/images/londres/Moment-memorable3.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -579,7 +597,7 @@ plein les yeux de la journée mémorable que nous venions de passer.
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable3.jpg"
+              src="/images/londres/Moment-memorable4.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -587,15 +605,7 @@ plein les yeux de la journée mémorable que nous venions de passer.
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable4.jpg"
-              alt="Moment mémorable"
-              width={800}
-              height={500}
-            />
-          </div> 
-          <div className={styles.imageContainer}>
-              <Image
-              src="/images/londres/Moment-mémorable5.jpg"
+              src="/images/londres/Moment-memorable5.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -662,7 +672,7 @@ qui eut droit à un shooting photo !
 </p>
             <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/écureuil.jpg"
+              src="/images/londres/ecureuil.jpg"
               alt="écureuil"
               width={800}
               height={500}
@@ -743,7 +753,7 @@ Nelson, un héros de la marine britannique entouré par les quatre lions de bron
 </p>
             <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/l’amiral-Horacio.jpg"
+              src="/images/londres/l-amiral-Horacio.jpg"
               alt="l’amiral Horacio"
               width={800}
               height={500}
@@ -856,7 +866,7 @@ de comédies musicales et de pièces de théâtres.
 </p>
             <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/comédies-musicales.jpg"
+              src="/images/londres/comedies-musicales.jpg"
               alt="comédies musicales"
               width={800}
               height={500}
@@ -891,7 +901,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable6.jpg"
+              src="/images/londres/Moment-memorable6.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -899,7 +909,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable7.jpg"
+              src="/images/londres/Moment-memorable7.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -907,7 +917,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable8.jpg"
+              src="/images/londres/Moment-memorable8.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -939,7 +949,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
             </p>
             <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/nuit-cathédrale-Saint-Paul.jpg"
+              src="/images/londres/nuit-cathedrale-Saint-Paul.jpg"
               alt="nuit cathédrale Saint-Paul"
               width={800}
               height={500}
@@ -958,7 +968,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable9.jpg"
+              src="/images/londres/Moment-memorable9.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
@@ -966,7 +976,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
           </div> 
           <div className={styles.imageContainer}>
               <Image
-              src="/images/londres/Moment-mémorable10.jpg"
+              src="/images/londres/Moment-memorable10.jpg"
               alt="Moment mémorable"
               width={800}
               height={500}
