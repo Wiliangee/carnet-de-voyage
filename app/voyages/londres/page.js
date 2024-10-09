@@ -248,7 +248,7 @@ son atmosphère médiévale nous met dans l’ambiance.
           </p>
           <div className={styles.imageContainer}>
             <Image
-              src="/images/londres/tour-de-Londres1.jpg"
+              src="/images/londres/tour-de-londres1.jpg"
               alt="La tour de Londres"
               width={800}
               height={500}
