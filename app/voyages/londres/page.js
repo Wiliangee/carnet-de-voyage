@@ -328,6 +328,7 @@ nous quittons cet endroit.
               alt="Tour de Londres"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div> 
                 
@@ -350,6 +351,7 @@ plus industrielle qui nous permet de découvrir l’intérieur de ce géant de p
               alt="Tower Bridge"
               width={800}
               height={500}
+              layout="responsive"
             />
           </div>
                 
