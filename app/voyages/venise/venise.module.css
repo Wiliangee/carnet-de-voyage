@@ -7,4 +7,18 @@
   @media (max-width: 768px) {
     /* Styles pour mobile si nécessaire */
   }
+  .imageContainer {
+    text-align: center;
+    margin: 50px 0;
+  }
   
+  .imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  .panoramaContainer {
+    width: 100%;
+    height: 500px; /* Ajuste la hauteur selon tes besoins */
+    border: 1px solid #ddd;
+  }

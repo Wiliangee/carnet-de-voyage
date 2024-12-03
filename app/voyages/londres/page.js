@@ -328,7 +328,7 @@ nous quittons cet endroit.
               alt="Tour de Londres"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
                 
@@ -351,7 +351,7 @@ plus industrielle qui nous permet de découvrir l’intérieur de ce géant de p
               alt="Tower Bridge"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div>
                 
@@ -432,7 +432,7 @@ perdant dans les nuages, cette expérience fut impressionnante.
               alt="Vue de The Shard"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
           <p>
@@ -445,7 +445,7 @@ panoramique sur la Tamise et les immeubles de la ville est assez original.
               alt="Toillette the Shard"
               width={800}
               height={500}
-              layout="responsive"
+             
             />
           </div> 
           <p>
@@ -470,7 +470,7 @@ Cette mésaventure derrière nous, nous changeons nos plans, la nuit commençait
               alt="Le sac et le coupable"
               width={800}
               height={500}
-              layout="responsive"
+             
             />
           </div> 
         
@@ -486,7 +486,7 @@ moment.
               alt="Big Ben"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
         
@@ -503,7 +503,7 @@ malheureusement pas le visiter ce coup-ci. Ce géant de pierre, immuable à trav
               alt="cathédrale de Westminster"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
         
@@ -520,7 +520,7 @@ certains.
               alt="Piccadilly Circus"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
         
@@ -536,7 +536,7 @@ le magasin, parmi tous ses chocolats.
               alt="M&M’s"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
           <div className={styles.imageContainer}>
@@ -545,7 +545,7 @@ le magasin, parmi tous ses chocolats.
               alt="M&M’s"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
         
@@ -561,7 +561,7 @@ retrouver.
               alt="bonnet M&M’s"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
         
@@ -578,7 +578,7 @@ plein les yeux de la journée mémorable que nous venions de passer.
               alt="Moment mémorable"
               width={800}
               height={500}
-              layout="responsive"
+              
             />
           </div> 
           <div className={styles.imageContainer}>
@@ -986,7 +986,7 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
           </div> 
         </section>
 
-        
+        {/* logo resau bas de page */}
         <footer className={styles.footer}>
       <div>
       <a href="https://www.instagram.com/c.m.carnetdevoyage/" target="_blank" rel="noopener noreferrer">
@@ -1059,6 +1059,45 @@ j’ai retrouvé le même émerveillement que lors de mon premier voyage à Lond
 }
 
 export const metadata = {
-  title: 'Carnets de Voyage - Londres',
-  description: 'Récit de notre voyage de deux jours à Londres, à la découverte des incontournables.',
+  title: 'Voyage à Londres - Carnets de Voyage',
+  description:
+    'Découvrez notre aventure de deux jours à Londres, explorant les sites emblématiques et les joyaux cachés de la capitale britannique.',
+  keywords: [
+    'Londres',
+    'Voyage',
+    'Carnet de voyage',
+    'Tourisme',
+    'Angleterre',
+    'Visite',
+    'Aventure',
+  ],
+  author: 'Chloé et Marc',
+  openGraph: {
+    title: 'Voyage à Londres - Carnets de Voyage',
+    description:
+      'Suivez notre périple de deux jours à travers Londres, découvrant les incontournables et les trésors cachés de la ville.',
+    url: 'https://carnet-de-voyage-c.fr/voyages/londres',
+    type: 'article',
+    images: [
+      {
+        url: '/images/londres/londres-intro.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Vue panoramique de Londres avec le Tower Bridge',
+      },
+    ],
+    locale: 'fr_FR',
+    siteName: 'Carnets de Voyage',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Voyage à Londres - Carnets de Voyage',
+    description:
+      'Notre aventure de deux jours à Londres, explorant les sites emblématiques et les joyaux cachés.',
+    images: ['/images/londres/londres-intro.jpg'],
+   
+  },
 };
+
+
+

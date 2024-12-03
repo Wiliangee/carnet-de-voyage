@@ -14,10 +14,10 @@ export default function HomePage() {
       <main className={styles.mainContent}>
         <section className={styles.presentation}>
         <nav className={styles.navButtons}>
-          {/*<a href="/voyages/venise" className={styles.navButton}>
+          <a href="/voyages/venise" className={styles.navButton}>
             <img src="/icons/italy-flag.png" alt="Italie" className={styles.flagIcon} />
             Venise
-          </a>*/}
+          </a>
           <a href="/voyages/londres" className={styles.navButton}>
             <img src="/icons/uk-flag.png" alt="Royaume-Uni" className={styles.flagIcon} />
             Londres
@@ -190,3 +190,50 @@ rêvez-vous de faire ?
     </div>
     )
          }
+         export const metadata = {
+          title: 'Carnets de Voyage - Accueil',
+          description:
+            'Rejoignez Chloé et Marc dans leurs aventures autour du monde. Découvrez des récits passionnants et des photographies époustouflantes.',
+          keywords: [
+            'Carnets de Voyage',
+            'Voyage',
+            'Blog de voyage',
+            'Chloé et Marc',
+            'Aventures',
+            'Tour du monde',
+            'Photographie',
+          ],
+          author: 'Chloé et Marc',
+          openGraph: {
+            title: 'Carnets de Voyage - Accueil',
+            description:
+              'Rejoignez Chloé et Marc dans leurs aventures autour du monde. Découvrez des récits passionnants et des photographies époustouflantes.',
+            url: 'https://carnet-de-voyage-c.fr',
+            type: 'website',
+            images: [
+              {
+                url: '/images/header-home.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Chloé et Marc en voyage',
+              },
+            ],
+            locale: 'fr_FR',
+            siteName: 'Carnets de Voyage',
+          },
+          twitter: {
+            card: 'summary_large_image',
+            title: 'Carnets de Voyage - Accueil',
+            description:
+              'Découvrez nos aventures autour du monde sur Carnets de Voyage. Suivez Chloé et Marc dans leurs explorations.',
+            images: ['/images/header-home.jpg'],
+            // Champ `creator` supprimé car pas de compte Twitter
+          },
+          robots: {
+            index: true,
+            follow: true,
+          },
+          themeColor: '#ffffff',
+        };
+        
+        
