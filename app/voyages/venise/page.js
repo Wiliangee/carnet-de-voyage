@@ -415,24 +415,3 @@ Pour terminer notre soirée en beauté, nous savourons une glace généreuse et 
 
 
 
-export const metadata = {
-  title: 'Carnets de Voyage - Une escapade inoubliable à Venise',
-  description: 'Découvrez notre aventure à Venise, en Italie, de Milan aux paysages alpins, avec des photos et récits captivants.',
-  openGraph: {
-    title: 'Carnets de Voyage - Une escapade inoubliable à Venise',
-    description: 'Découvrez notre aventure à Venise, en Italie, de Milan aux paysages alpins, avec des photos et récits captivants.',
-    url: 'https://www.cmcarnetdevoyage.com/voyages/venise',
-    images: [
-      {
-        url: '/images/venise/intro1.jpg',
-        alt: 'Une vue magnifique de Milan en route vers Venise',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Carnets de Voyage - Une escapade inoubliable à Venise',
-    description: 'Notre voyage en Italie, de Milan à Venise, avec des anecdotes et des paysages incroyables.',
-    images: ['/images/venise/intro1.jpg'],
-  },
-};
