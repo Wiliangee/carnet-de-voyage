@@ -1,5 +1,5 @@
 // app/voyages/venise/page.js
-'use client';
+"use client"; // Ajoutez cette ligne en haut du fichier
 
 import { useEffect, useRef } from 'react';
 import Header from '../../components/Header';
@@ -9,6 +9,7 @@ import '@photo-sphere-viewer/core/index.css';
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 import '@photo-sphere-viewer/markers-plugin/index.css';
 import Image from 'next/image';
+
 
 export default function VenisePage() {
   const panoramaRef = useRef(null);
@@ -96,8 +97,16 @@ export default function VenisePage() {
  monde, au bord de la rivière, nous avons savouré notre petit-déjeuner dans la fraîcheur
  matinale des gorges avec seulement le bruit de l’eau pour troubler notre tranquillité. 
  </p>
- {/* video */}
-
+ {/*
+ <div class="video-container">
+  <iframe 
+    src="https://www.youtube.com/embed/9H9Fx0cMj0c"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+  ></iframe>
+</div>
+*/}
   <p>
  Mais,
  avec une longue route devant nous, nous avons repris rapidement notre chemin.
@@ -200,15 +209,7 @@ export default function VenisePage() {
  ment pas : les Italiens ont une conduite nerveuse et sportive, qui nous a donné quelques
  sueurs froides. Il nous a fallu quelques kilomètres pour comprendre leurs règles de conduite.
  </p>
- <div className={styles.imageContainer}>
-          <Image
-              src="/images/venise/jesaispas.jpg"
-              alt="je sais pas"
-              width={800}
-              height={500}
-            />
-           </div>
-        
+
          
   <p>
  Enfin, nous arrivons à Milan après 10h de route fatigante ! Nous arrivons devant l’entrée de
@@ -245,9 +246,9 @@ langue et l’accent.
  soient visibles, comme sur le décor à l’arrière du lit où le simili cuir s’effritait.
  Mais en revanche, l’état de la salle de bain laissait grandement à désirer entre un ménage
  plus que léger, le bois du bas de l’encadrement de la porte pourri et les carreaux manquant
- dans la douche.<p>
+ dans la douche.</p>
   {/* video */}
- </p>
+ <p>
  L'hôtel idéalement situé nous a permis d’atteindre le cœur de Milan en à peine vingt minutes
  grâce à la gare juste à côté. Nous étions peut-être fatigués de la route de la journée, mais
  également excités à l’idée de découvrir cette cité.
@@ -265,9 +266,9 @@ langue et l’accent.
   <p>
  Nous voilà parti à la découverte de la ville ! Nous commençons par nous balader
  tranquillement à notre rythme, découvrant les rues de la ville, admirant les bâtiments autour
- de nous.<p>
+ de nous.</p>
 
- </p>
+ <p>
  Nous passons les portes avec les grilles impressionnantes au-dessus de nos têtes et
  traversons la cour du Château des Sforza datant de la renaissance italienne, admirant son
  architecture imposante.
@@ -364,7 +365,8 @@ langue et l’accent.
          
   <p>
  Sur les conseils de ma belle-sœur et de mon frère, nous nous arrêtons chez Zia Esterina
- Sorbillo, une petite boutique emblématique de la ville. </p>
+ Sorbillo, une petite boutique emblématique de la ville.
+  </p>
  <div className={styles.imageContainer}>
           <Image
               src="/images/venise/pizzeria.jpg"
@@ -375,10 +377,12 @@ langue et l’accent.
            </div>
         
          
-  <p>Cet établissement est réputé pour ses
+<p>
+ Cet établissement est réputé pour ses
  pizzas frites à emporter, une spécialité locale. A moindre coût, nous avons eu un repas
  original, ce n’était pas mémorable mais bon quand même. Nous avons pu grignoter notre
- pitance sur un banc à proximité. </p>
+ pitance sur un banc à proximité.
+  </p>
  <div className={styles.imageContainer}>
           <Image
               src="/images/venise/pizza.jpg"
@@ -404,14 +408,371 @@ Pour terminer notre soirée en beauté, nous savourons une glace généreuse et 
             />
            </div>
         
-         
+        
+        <h2>Jour 2- De Milan à Venise</h2>
+        <p>
+ Après une bonne nuit de sommeil, nous commençons la journée par un bon petit-déjeuner à
+ l'hôtel, le buffet à volonté était bien garni avec des fruits, des légumes, et d’autres options
+ plus gourmandes. En pleine forme, le ventre plein, nous voilà prêt à reprendre la route !
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/petitedeje.jpg"
+              alt="petit dejeuner"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Nous empruntons à nouveau les routes de campagne, où le paysage se transforme
+ progressivement en vallées ondulantes et les cultures se diversifient légèrement. Le long de
+ notre trajet, des bâtiments intéressants attirent notre regard. Suivant notre instinct, nous
+ faisons une pause pour admirer le sanctuaire de Santa Maria del Fonte.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/decouvertedomme.jpg"
+              alt="decouverte eglise"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Ce bâtiment massif, aux façades blanches et rouges, est couronné d’une coupole de cuivre
+ bleuté qui s’élève majestueusement vers le ciel. Son architecture dégage une aura de calme
+ et invite à la contemplation et au recueillement. Ce sanctuaire est paisible avec une
+ élégance discrète et un charme intemporel. Nous nous sommes baladés dans les jardins,
+ nous imprégnant du calme des lieux que seul le chant des oiseaux perturbait.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/sanctuaire-santa-maria.jpg"
+              alt="Santa Maria"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Ce sanctuaire est dédié à la Vierge Marie car la légende locale raconte qu’elle serait apparu
+ à un berger nommé Giovanni, elle en aurait alors demandé sa construction en ce lieu, à côté
+ d’une source d'eau bénite. Aujourd’hui, en raison de cette légende, ce sanctuaire est un lieu
+ central de la culture religieuse de la région et attire de nombreux pèlerins. </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/sanctuaire-santa-maria1.jpg"
+              alt="Santa Maria"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Nous avons repris notre chemin, avançant doucement mais sûrement vers notre destination
+ finale mais avant cela, il nous restait un dernier arrêt sur le chemin.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/lac-de-garde.jpg"
+              alt="lac de garde "
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ C’est ainsi que nous sommes arrivés sur les rives du Lac de Garde. 
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/lac-de-garde2.jpg"
+              alt="lac de garde"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+            Le soleil brillait si fort
+ que nous peinions à distinguer les montagnes le bordant, tandis que l’eau scintillait sous sa
+ lumière éclatante et le ciel devenu blanc sous l’effet de la chaleur. Nous nous sommes
+ promenés le long des rives, profitant du paysage, entre l’étendue d’eau paisible et les
+ maisons italiennes entourées de verdure.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/lac-de-garde3.jpg"
+              alt="lac de garde"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Nous avons profité de notre pause pour nous arrêter manger. Nous avons trouvé une petite
+ pizzeria, Le Pergole, où nous avons pu nous installer en terrasse autour d'une bière et d'une
+ pizza. L'endroit était simple, le service rapide et les prix abordables, parfait pour une pause
+ conviviale avant de reprendre la route.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/pizza3.jpg"
+              alt="pizza"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Voilà, ça y est c’est la dernière ligne droite, il nous reste encore quelques heures de route
+ avant d’arriver à destination mais nous avons hâte de découvrir la belle Sérénissime.
+ L’arrivée fut sportive ! Le temps de garer la voiture, nous nous sommes fait appeler par la
+ dame de l’accueil, nous pressant avec les bagages, pour que l’on puisse monter à bord du
+ bateau par justesse.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/Parcheggio-Marive-Mestre-Ferry.jpg"
+              alt="bateau"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+Le cœur battant, nous voilà à bord du bateau, discernant au loin les berges de la ville. Il
+ nous reste encore une étape avant de pouvoir explorer : déposer nos affaires à l'hôtel.
+ Traverser les ruelles animées et les ponts, au milieu de la foule de touristes et sous la
+ chaleur estivale, ne fut pas une mince affaire. Ce fut avec un grand soulagement que nous
+ sommes enfin arrivés à l'hôtel, couverts de sueur.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/venise.jpg"
+              alt="arrivée à Venise"
+              width={800}
+              height={500}
+            />
+           </div>
+           <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/venise2.jpg"
+              alt="arrivée à Venise"
+              width={800}
+              height={500}
+            />
+           </div>
+           <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/hotel2.jpg"
+              alt="hotel"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ L’accueil fut un peu délicat, le réceptionniste nous parlait du bout des lèvres chuchotant
+ presque rendant la compréhension et la communication difficile même en se débrouillant en
+ anglais et avec quelques notions d’italien. 
+ 
+            Ayant réservé l'hôtel via une plate-forme, nous
+ avions quelques questions concernant les activités réservées auxquelles nous n’avons eu
+ aucune réponse. Nous avons eu l’impression de le déranger et de ne pas être à notre place.
+ Nous découvrons notre chambre pour les prochains jours, nous avons à disposition
+ plusieurs lits (deux simples et un double), dans l’ensemble elle est magnifique, décorée
+ dans le style de Venise avec une grande fresque représentant des gondoles. La vue depuis
+ la fenêtre donnait sur un canal avec le passage des gondoles, à certains moments de la
+ journée, nous pouvions même les entendre chanter.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/hotel3.jpg"
+              alt="chambre d'hotel"
+              width={800}
+              height={500}
+            />
+           </div>
+           <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/hotel4.jpg"
+              alt="chambre d'hotel"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+             La salle de bain est magnifique, nous
+ avons droit à une belle baignoire et nous retrouvons le fameux bidet italien. La seule
+ déception est que, bien que l'hôtel soit supposé être interdit aux enfants, nous aurions
+ souhaité une décoration un peu plus romantique.</p>
+ <p>
+ Après une courte pause pour récupérer du voyage, nous sommes prêts à repartir et à
+ découvrir la belle Sérénissime. Nous arpentons les ruelles sans but précis, tombant par
+ hasard sur les jardins royaux “Giardini Reali“, l’un des seuls parcs de Venise.
+</p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/park.jpg"
+              alt="park"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+             Un écrin de
+ verdure avec les arbres se dressant au-dessus de nous, des bancs sont aménagés afin
+ d’encourager les gens à profiter du calme de l’endroit. </p>
+ 
+           <p>
+ Nous nous promenons ensuite le long de la lagune de Venise, profitant de l’ambiance festive
+ des vendeurs de souvenirs le long de l’eau. Nous admirons les gondoles bercées par les
+ vagues et la majestueuse Basilique Santa Maria della Salute, baignée dans la douce lumière
+ du soleil couchant. </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/santa-maria.jpg"
+              alt="basilique santa maria"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Nous nous laissons guider par l’effervescence de la ville jusqu’à atteindre l’une des places
+ les plus emblématiques de Venise : la Piazza San Marco.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/place_marco.jpg"
+              alt="place marco"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Cette place, la plus célèbre de la Sérénissime, impressionne par sa grandeur, à l'image des
+ monuments qui l'entourent. La basilique Saint-Marc, avec ses mosaïques étincelantes
+ bordées d'or et ses coupoles dorées, en est l'un des joyaux.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/basilique.jpg"
+              alt="basilique saint marco"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p> À ses côtés, le Palais des
+ Doges, chef-d'œuvre architectural en pierres blanches et roses, témoigne de la richesse et
+ du pouvoir de l'ancienne République de Venise. Surplombant le tout, le Campanile, une tour
+ majestueuse de près de 100 mètres de haut, domine l'horizon et offre une vue imprenable
+ sur la ville. Bien d’autres choses composent cette place et en font un lieu unique au monde.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/Campanile.jpg"
+              alt="Campanile"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Nous poursuivons notre promenade à travers les ruelles, traversant des ponts, émerveillés
+ par le passage des gondoliers et découvrant peu à peu d'autres facettes de cette magnifique
+ cité. Au fond d’une ruelle étroite, nous dénichons un petit restaurant, le Bacarando Corte
+ dell'Orso, qui propose des spécialités vénitiennes. Les plats, savoureux et généreusement
+ nappés d'huile d'olive italienne, étaient un véritable délice.
+ </p>
+ <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/pate.jpg"
+              alt="repas"
+              width={800}
+              height={500}
+            />
+           </div>
+           <p>
+ Après ce délicieux repas, il est temps de rentrer à l'hôtel, la fatigue de cette journée bien
+ remplie se faisant sentir. Les prochains jours s'annoncent riches en découvertes et en
+ nouvelles aventures. Ce voyage promet déjà d’être inoubliable !
+        </p>
+        <div className={styles.imageContainer}>
+          <Image
+              src="/images/venise/voyage.jpg"
+              alt="fin de journé"
+              width={800}
+              height={500}
+            />
+           </div>
   
           {/* Ajoute ton contenu ici */}
         </section>
-      </main>
+    
+
+
+
+
+  {/* logo resau bas de page */}
+  <footer className={styles.footer}>
+  <div>
+  <a href="https://www.instagram.com/c.m.carnetdevoyage/" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/icons/instagram.png"
+      alt="Instagram"
+      width={30}
+      height={30}
+      className={styles.icon}
+    />
+  </a>
+  <a href="https://www.youtube.com/@Chlo%C3%A9etMarcCarnetdeVoyage" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/icons/youtube.png"
+      alt="YouTube"
+      width={30}
+      height={30}
+      className={styles.icon}
+    />
+  </a>
+  <a href="https://www.facebook.com/profile.php?id=61563758530618&rdid=W5elENd8syaly62b&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FhcMKVLQDdYL6sX9T%2F" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/icons/facebook.png"
+      alt="Facebook"
+      width={30}
+      height={30}
+      className={styles.icon}
+    />
+  </a>
+  <a href="https://www.tiktok.com/@c.m.carnet.de.voyage" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/icons/tiktok.png"
+      alt="TikTok"
+      width={30}
+      height={30}
+      className={styles.icon}
+    />
+  </a>
+  
+  <a href="https://pin.it/5IFy3Zi92" target="_blank" rel="noopener noreferrer">
+    <Image
+      src="/icons/Pinterest.png"
+      alt="Pinterest"
+      width={30}
+      height={30}
+      className={styles.icon}
+    />
+  </a>
+ 
+</div>
+</footer>
+
+
+
+
+    {/* Bouton de retour en haut de page */}
+    <div className={styles.backToTop}>
+      <a href="#top">
+        <Image
+      src="/icons/chevron-double-up.png"
+      alt="haut de page"
+      width={30}
+      height={30}
+      className={styles.icon}
+      />
+      </a>
     </div>
-  );
+  </main>
+</div>
+);
 }
-
-
-

@@ -22,3 +22,72 @@
     height: 500px; /* Ajuste la hauteur selon tes besoins */
     border: 1px solid #ddd;
   }
+  .backToTop {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .backToTop a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .backToTop a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .mainContent {
+      padding: 15px;
+    }
+  
+    .section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .section h3 {
+      font-size: 1.25rem;
+    }
+  
+  .backToTop   {
+    position: fixed;
+    bottom: 20px;  /* Ajustez la valeur pour la distance depuis le bas */
+    right: 20px;   /* Ajustez la valeur pour la distance depuis la droite */
+    z-index: 1000; /* S'assure que l'élément est au-dessus des autres */
+    cursor: pointer;
+  }
+  }
+
+  .footer div {
+    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centre le contenu horizontalement */
+    align-items: center;
+    padding: 10px;
+
+    z-index: 1000; /* S'assure que le Footer est au-dessus des autres éléments */
+  }
+  
+  
+  
+  .footer .icon {
+    width: 30px; /* Ajustez la taille des icônes si besoin */
+    height: 30px;
+  }
+
+  
+  
+  .video-container iframe {
+    position: absolute;
+
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px 0;
+  
+              
+  }
